@@ -3,13 +3,11 @@ vim-togglemouse ![Project status](http://stillmaintained.com/nvie/vim-togglemous
 
 Installation
 ------------
-1. Copy the file `plugin/toggle_mouse.vim` to your `~/.vim/plugin` directory
-2. There is no step 2.
-
+Copy the file `plugin/toggle_mouse.vim` to your `~/.vim/plugin` directory
 
 Usage
 -----
-Press `<F12>` to toggle mouse focus between Vim and your terminal emulator,
+Press `<F6>` to toggle mouse focus between Vim and your terminal emulator,
 allowing terminal emulator mouse commands, like copy/paste.
 
 Toggling restores the Vim 'mouse' option value to its previous value.
@@ -17,6 +15,6 @@ Toggling restores the Vim 'mouse' option value to its previous value.
 
 Customization
 -------------
-If you don't want to use the `<F12>` key for mouse toggling, simply remap it to
+If you don't want to use the `<F6>` key for mouse toggling, simply remap it to
 another key.  It autodetects whether it has been remapped and won't register
-the `<F12>` key if so.
+the `<F6>` key if so.

@@ -26,11 +26,11 @@ fun! s:ToggleMouse()
 endfunction
 
 " Add mappings, unless the user didn't want this.
-" The default mapping is registered under to <F12> by default, unless the user
-" remapped it already (or a mapping exists already for <F12>)
+" The default mapping is registered under to <F6> by default, unless the user
+" remapped it already (or a mapping exists already for <F6>)
 if !exists("no_plugin_maps") && !exists("no_toggle_mouse_maps")
     if !hasmapto('<SID>ToggleMouse()')
-        noremap <F12> :call <SID>ToggleMouse()<CR>
-        inoremap <F12> <Esc>:call <SID>ToggleMouse()<CR>a
+        noremap <F6> :call <SID>ToggleMouse()<CR>
+        inoremap <F6> <Esc>:call <SID>ToggleMouse()<CR>a
     endif
 endif
